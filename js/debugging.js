@@ -12,7 +12,7 @@ var myAge=document.getElementById("myAge").value; //de eerste variabele is voor 
         {
              //kies code hieronder
         }
-    else
+    else//
         {
              //kies code hieronder
         }
