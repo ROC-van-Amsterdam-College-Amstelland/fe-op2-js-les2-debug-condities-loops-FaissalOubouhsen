@@ -8,19 +8,22 @@ function getAge()
 {
 var myAge=document.getElementById("myAge").value; //de eerste variabele is voor je aangemaakt...
 
-    if() //vul de juiste voorwaarde in!
-        {
-             //kies code hieronder
+    if(myAge < 10) 
+       {
+            loadChildTheme(); 
         }
-    else//
+    else
         {
-             //kies code hieronder
+             loadTheme();
         }
 }
 
 function loadChildTheme()
 {
  //kies code hieronder
+    document.getElementById("body").style.backgroundColor = "green";
+    document.getElementById("brand").src = "images/logo-01.png";
+    document.getElementById("header")[0].style.backgroundColor = "blue";
 }
 
 function loadTheme()
@@ -35,8 +38,8 @@ function loadTheme()
 //loadTheme(); //hiermee roepen we de functie loadTheme aan
 //
     //let op verschillende manieren waarop je een element kan aanroepen
-    //document.getElementById("").src = "images/logo-01.png";
-    //document.getElementById("").src = "images/logo-02.png";
+    //document.getElementById("brand").src = "images/logo-01.png";
+    //document.getElementById("header").src = "images/logo-02.png";
 
     // zoek uit in W3Schools wat je op de plaats van de x moet invullen en leg in de comments uit waarom!
     //Tel goed het aantal keren dat de stijl voorkomt
